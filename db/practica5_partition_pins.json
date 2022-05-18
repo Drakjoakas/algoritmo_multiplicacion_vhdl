@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "FC",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ClrCounter",
+					"strict" : false
+				},
+				{
+					"name" : "IncCounter",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

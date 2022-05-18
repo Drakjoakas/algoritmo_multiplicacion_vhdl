@@ -1,0 +1,21 @@
+|practica5
+FC <= Counter:inst.FC
+clk => Counter:inst.clk
+ClrCounter => Counter:inst.ClrCounter
+IncCounter => Counter:inst.IncCounter
+
+
+|practica5|Counter:inst
+clk => FC~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+ClrCounter => cnt.OUTPUTSELECT
+ClrCounter => cnt.OUTPUTSELECT
+ClrCounter => cnt.OUTPUTSELECT
+IncCounter => cnt.OUTPUTSELECT
+IncCounter => cnt.OUTPUTSELECT
+IncCounter => cnt.OUTPUTSELECT
+FC <= FC~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
